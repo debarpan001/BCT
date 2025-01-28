@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>  
+                <li><a href="#personal">Personal Info</a></li>
+                <li><a href="#academic">Academics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Student Information Portal</h1>
+    </header>
+
+    <!-- Personal Information Section -->
+    <section id="personal">
+        <div class="card">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Debarpan Das</p>
+            <p><strong>Age:</strong> NOT MENTIONED</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Date of Birth:</strong> NOT MENTIONED</p>
+            <button class="action-btn">Edit Information</button>
+        </div>
+    </section>
+
+    <!-- Academic Information Section -->
+    <section id="academic">
+        <div class="card">
+            <h3>Academic Information </h3>
+            <h4>Program of Study :</h4>
+            <p><strong>Major:</strong> Computer Science</p>
+            <p><strong>Minor:</strong> NIL</p>
+
+            <h4>Academic Performance :</h4>
+            <p><strong>SGPA:</strong> 9.15</p>
+            <p><strong>Graduation Year:</strong> 2026</p>
+
+            <h4>Courses :</h4>
+            <ul>
+                <li>Data Structures</li>
+                <li>Operating Systems</li>
+                <li>Database Management</li>
+            </ul>
+            <button class="action-btn">View Transcript</button>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section id="contact">
+        <div class="card">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> xyz@gmail.com</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Address:</strong> JISCE, Kalyani</p>
+            <button class="action-btn">Update Contact</button>
+        </div>
+    </section>
+
+    <!-- Other Information Section -->
+<section id="others-info" style="padding: 20px; background-color: #f4f4f4;">
+    <h2>Today's Work</h2>
+
+    <h1 id="demo"></h1>
+    <p id="test"></p>
+    <p id="promise"></p>
+    
+    <div id="message"></div>
+    <button onclick="checkStatus()">Check Status</button>
+
+    
+    
+  </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Information System | All Rights Reserved</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
