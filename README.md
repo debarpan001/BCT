@@ -1,2 +1,2 @@
-# BCT_Full_Stack
-College Project
+# Frontend
+ Project
